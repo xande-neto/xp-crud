@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { getByIdData, updateData } from "../api/services";
 
 export default function Update() {
-  const [id, setID] = useState(null);
   const [data, setData] = useState({});
   let history = useHistory();
   let { slug } = useParams();
