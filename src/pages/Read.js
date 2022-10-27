@@ -27,6 +27,7 @@ export default function Read() {
   return (
     <div>
       <div>
+        <Button onClick={getList}>Refresh</Button>
         <Link to="/create">
           <Button color="green">Add Range</Button>
         </Link>
