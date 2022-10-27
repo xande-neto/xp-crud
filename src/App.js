@@ -10,10 +10,14 @@ function App() {
       <div className="main">
         <h2 className="main-header">Spread Configuration</h2>
         <div>
-          <Route exact path="/create" component={Create} />
+          <Route path="/create">
+            <Create />
+          </Route>
         </div>
         <div style={{ marginTop: 20 }}>
-          <Route exact path="/" component={Read} />
+          <Route path="/">
+            <Read />
+          </Route>
         </div>
 
         <Route path="/update/:slug">

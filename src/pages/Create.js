@@ -1,7 +1,6 @@
-import { useEffect } from "react";
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
-import { Button, Checkbox, Form } from "semantic-ui-react";
+import { Button, Form } from "semantic-ui-react";
 import { postData } from "../api/services";
 
 export default function Create() {
